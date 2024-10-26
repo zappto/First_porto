@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+
+#navbar {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 200;
+}
+
+.span {
+  background: -webkit-linear-gradient(#ff8660, #9a33ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bolder;
+}
+
+.awal {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+body.dark-mode .Experience {
+  color: #c5c5c5;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+}
+body.light-mode .Experience {
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.ME {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 22px;
+}
+
+.Projek {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 35px;
+  background: -webkit-linear-gradient(#ff8660, #d5491d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body.dark-mode .card-text {
+  color: #c5c5c5;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+body.light-mode .card-text {
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.Span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.Pengalaman {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 35px;
+  background: -webkit-linear-gradient(#5badff, #1373d1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sertif {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+}
+
+body.dark-mode .ig {
+  color: white;
+  text-decoration: none;
+}
+body.dark-mode .linkedin {
+  color: white;
+  text-decoration: none;
+}
+body.dark-mode .github {
+  color: white;
+  text-decoration: none;
+}
+
+body.light-mode .ig {
+  color: #333;
+  text-decoration: none;
+}
+body.light-mode .linkedin {
+  color: #333;
+  text-decoration: none;
+}
+body.light-mode .github {
+  color: #333;
+  text-decoration: none;
+}
+
+#social-media {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 35px;
+  background: -webkit-linear-gradient(#ff8660, #9a33ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sertif {
+  flex: 1;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.Text {
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 35px;
+  background: -webkit-linear-gradient(#ff8660, #d5491d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#theme-toggle i {
+  color: #fff;
+  padding: 0 4px;
+}
+
+.light-mode #theme-toggle i {
+  color: #000;
+}
+
+@media screen and (max-width: 600px) {
+  .Text {
+    font-size: 24px;
+  }
+  .I {
+    font-size: 25 px;
+  }
+  .ME {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+  }
+  .xe {
+    text-align: center  ;
+  }
+}
+
+body,
+.navbar,
+.card,
+.footer,
+.btn {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+body.dark-mode .navbar {
+  background-color: #333;
+  color: white;
+}
+
+body.dark-mode .navbar div a {
+  color: white;
+}
+body.light-mode .navbar div a {
+  color: #333;
+}
+body.dark-mode .navbar div ul li a {
+  color: white;
+}
+body.light-mode .navbar div ul li a {
+  color: #333;
+}
+body.dark-mode .card {
+  background-color: #222;
+  color: #ffffff;
+}
+body.dark-mode .footer {
+  background-color: #333;
+  color: #ffffff;
+}
+
+body.light-mode {
+  background-color: #f8f9fa;
+  color: #333;
+}
+body.light-mode .navbar {
+  background-color: #cbd5e1;
+  color: #333;
+}
+body.light-mode .card {
+  background-color: #ffffff;
+  color: #333;
+}
+body.light-mode .footer {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+body.dark-mode .navbar div button span {
+  color: #fff;
+}
+
+body.light-mode .navbar div button span {
+  color: #333;
+}
+
+#theme-toggle i {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+#moon-icon.d-none,
+#sun-icon.d-none {
+  opacity: 0;
+  transform: scale(0.9);
+}

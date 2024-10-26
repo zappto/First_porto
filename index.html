@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portofolio</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body class="dark-mode">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top" id="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Sapto Gusty</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="fa-solid fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Project">Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#expe">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Social Media</a>
+            </li>
+          </ul>
+          <button id="theme-toggle" class="btn ms-3">
+            <i id="moon-icon" class="fas fa-moon"></i>
+            <i id="sun-icon" class="fas fa-sun d-none"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home -->
+    <div class="text-center h-full">
+      <div class="pt-5">
+        <img
+          src="./assets/gueh.jpg"
+          alt=""
+          width="200"
+          height="200"
+          class="rounded-circle mb-4"
+          id="PP"
+        />
+        <div class="awal mb-5">
+          <h1 class="Hi">Hi Everyone!!!</h1>
+          <h1 class="this">This is <span class="span">about me!!</span></h1>
+          <h1 class="I">
+            I want to be <span id="typed-text" class="Text"></span>
+          </h1>
+        </div>
+        <p class="ME">
+          I am a student from Dian Nuswantoro University, and I am a junior web
+          and <span class="xe">mobile developer.</span><br />
+          I want to become a mobile and web programmer, especially the backend
+          <span class="xe"> web part </span>
+        </p>
+      </div>
+
+      <!-- Experience -->
+      <div class="Experience pt-5">
+        <h3>EXPERIENCE WITH</h3>
+        <div class="pt-2 pb-5">
+          <i class="fa-brands fa-html5 fa-xl pe-3" style="color: #ff7300"></i>
+          <i
+            class="fa-brands fa-css3-alt fa-xl pe-3"
+            style="color: #0091ff"
+          ></i>
+          <i class="fa-brands fa-js fa-xl pe-3" style="color: #ffd43b"></i>
+          <i
+            class="fa-brands fa-bootstrap fa-xl pe-3"
+            style="color: #9470ff"
+          ></i>
+        </div>
+        <h3>BEING STUDIED</h3>
+        <div class="pt-2">
+          <i class="fa-brands fa-react fa-xl pe-3" style="color: #74c0fc"></i>
+          <i class="fa-brands fa-laravel fa-xl pe-3" style="color: #fc0303"></i>
+          <i class="fa-brands fa-node-js fa-xl pe-3" style="color: #00b825"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECT -->
+    <div class="pt-5" id="Project">
+      <div class="pb-3 text-center">
+        <h2 class="Projek">PROJECT</h2>
+      </div>
+      <div class="container pe-xl-5 ps-xl-5 pb-xl-5">
+        <div class="row justify-content-center">
+          <!-- Project 1 -->
+          <div class="col-xl-6 pb-4" id="project-1">
+            <div class="card rounded-top-4">
+              <img
+                src="./assets/ui-indomie.png"
+                class="card-img-top rounded-top-4"
+                alt="Project-1"
+                width="200px"
+                height="600px"
+              />
+              <div class="card-body text-center">
+                <a
+                  class="btn"
+                  href="https://github.com/zappto/ui_resep_indomie"
+                  target="_blank"
+                >
+                  <p class="card-text">
+                    slicing ui recipe indomie <br />
+                    using flutter language<br />
+                    <span class="Span">GO PROJECT</span>
+                    <i class="fa-solid fa-chevron-right fs-4"></i>
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Project 2 -->
+
+          <div class="col-xl-6 pb-4" id="project-2">
+            <div class="card rounded-top-4">
+              <img
+                src="./assets/Web-HMTI.png"
+                class="card-img-top rounded-top-4"
+                alt="Project-2"
+                width="200px"
+                height="600px"
+              />
+              <div class="card-body text-center">
+                <a
+                  class="btn"
+                  href="https://github.com/zappto/Tugas-HMTI"
+                  target="_blank"
+                >
+                  <p class="card-text">
+                    create a conditional HMTI registration <br />
+                    web form using html css js<br />
+                    <span class="Span">GO PROJECT</span>
+                    <i class="fa-solid fa-chevron-right fs-4"></i>
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <!-- <div class="col-xl-5 pb-4" id="project-3">
+            <div class="card rounded-top-4">
+              <img
+                src="./assets/gueh.jpg"
+                class="card-img-top rounded-top-4"
+                width="200px"
+                height="500px"
+                alt="Project-3"
+              />
+              <div class="card-body text-center">
+                <a
+                  class="btn"
+                  href="https://github.com/zappto/ui_resep_indomie"
+                  target="_blank"
+                >
+                  <p class="card-text">
+                    slicing ui recipe indomie with flutter<br />
+                    <span class="Span">GO PROJECT</span>
+                    <i class="fa-solid fa-chevron-right text-white fs-4"></i>
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- Project 4 -->
+          <!-- <div class="col-xl-5 pb-4" id="project-4">
+            <div class="card rounded-top-4">
+              <img
+                src="./assets/gueh.jpg"
+                class="card-img-top rounded-top-4"
+                width="200px"
+                height="500px"
+                alt="Project-4"
+              />
+              <div class="card-body text-center">
+                <a
+                  class="btn"
+                  href="https://github.com/zappto/ui_resep_indomie"
+                  target="_blank"
+                >
+                  <p class="card-text">
+                    slicing ui recipe indomie with flutter<br />
+                    <span class="Span">GO PROJECT</span>
+                    <i class="fa-solid fa-chevron-right text-white fs-4"></i>
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Pengalaman -->
+    <section>
+      <div class="text-center" id="expe">
+        <div class="pb-3">
+          <h2 class="Pengalaman">EXPERIENCE</h2>
+        </div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xl-4">
+              <div class="sertif" id="sertif">
+                <img
+                  src="./assets/dicoding-AI.png"
+                  alt="dicoding"
+                  class="pe-3"
+                  width="370"
+                  height="250"
+                />
+                <p>
+                  I got this certificate when I studied the basics <br />
+                  of AI at DICODING
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-4">
+              <div class="sertif" id="sertif-2">
+                <img
+                  src="./assets/dicoding-DATA.png"
+                  alt="dicoding"
+                  width="370"
+                  height="250"
+                  class="pe-3"
+                />
+                <p>
+                  I got this certificate when I studied the basics of <br />
+                  data visualization at DICODING
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-4">
+              <div class="sertif" id="sertif-3">
+                <img
+                  src="./assets/dunia-coding-flutter.png"
+                  alt="dicoding"
+                  width="370"
+                  height="250"
+                  class="pe-3"
+                />
+                <p>
+                  I got this certificate when I studied the basics of <br />
+                  flutter + firebase at DUNIA CODING
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="text-center pt-5 pb-3" id="footer">
+      <div>
+        <p id="social-media">SOCIAL MEDIA</p>
+        <a href="https://www.instagram.com/zapp_rz/" target="_blank" class="ig">
+          <i class="fa-brands fa-instagram fa-xl p-2"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/sapto-gusty-a76343319/"
+          target="_blank"
+          class="linkedin"
+        >
+          <i class="fa-brands fa-linkedin fa-xl p-2"></i>
+        </a>
+        <a href="https://github.com/zappto" target="_blank">
+          <i class="github fa-brands fa-github fa-xl p-2"></i>
+        </a>
+      </div>
+    </footer>
+  </body>
+
+  <!-- bootstrap -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+
+  <!-- Gsap -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+  <!-- typed js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- aos -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <!-- js -->
+  <script src="main.js"></script>
+</html>
